@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://2baek2.github.io/sitemap.xml
