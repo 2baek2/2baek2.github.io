@@ -1,5 +1,5 @@
-baseURL: "https://2baek.github.io/"
-title: 2baek.github.io
+baseURL: "https://2baek2.github.io/"
+title: 2baek2.github.io
 paginate: 10
 theme: PaperMod
 
@@ -12,12 +12,12 @@ minify:
   disableXML: true
   minifyOutput: true
 
-copyright: "2baek.github.io"
+copyright: "2baek2.github.io"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 2baek.github.io
-  description: "2baek.github.io"
+  title: 2baek2.github.io
+  description: "2baek2.github.io"
   keywords: [Blog, Portfolio, PaperMod]
   # author: Me
   # author: ["Me", "You"] # multiple authors
