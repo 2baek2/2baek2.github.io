@@ -4,6 +4,7 @@ date: 2024-01-09T12:02:22+09:00
 draft: false
 # summary: 
 hideSummary: false
+showtoc: false
 # tags:
 # -
 ---
@@ -17,6 +18,8 @@ hideSummary: false
 들어가서 원하는 버전, 운영체제에 맞는 자바를 다운 받으면 됩니다. 
 
 ![java_homepage](images/java_homepage.png)
+
+## 환경 변수 설정
 
 그 이후에 해야하는게 환경 변수 설정인데 명령 프롬프트를 활용해서도 환경 변수 설정이 가능합니다.
 
