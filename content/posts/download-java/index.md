@@ -5,8 +5,8 @@ draft: false
 # summary: 
 hideSummary: false
 showtoc: false
-# tags:
-# -
+tags:
+- 'java'
 ---
 
 # Java 설치
