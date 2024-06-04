@@ -4,8 +4,9 @@ date: 2024-06-04T10:20:21+09:00
 draft: false
 # summary:
 # hideSummary: false
-# tags:
-# -
+tags:
+    - "postgres"
+    
 ---
 
 # postgres 명령어
