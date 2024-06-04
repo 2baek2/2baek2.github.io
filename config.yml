@@ -19,7 +19,7 @@ params:
   title: 2baek2.github.io
   description: "2baek2.github.io"
   keywords: [Blog, Portfolio, PaperMod]
-  # author: Me
+  author: 2baek2
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
@@ -44,6 +44,8 @@ params:
   # Table of contents
   showtoc: true
   tocopen: false
+
+  font: "Rose"
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -95,7 +97,7 @@ params:
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    appendFilePath: false # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -110,14 +112,14 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: archives
       name: Archives
       url: /archives/
@@ -125,11 +127,11 @@ menu:
     - identifier: search
       name: Search
       url: /search/
-      weight: 10
-    - identifier: series
-      name: series
-      url: /series/
-      weight: 10
+      weight: 20
+    # - identifier: series
+    #   name: series
+    #   url: /series/
+    #   weight: 10
 
     # - identifier: example
     #   name: example.org

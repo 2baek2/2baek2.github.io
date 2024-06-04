@@ -6,6 +6,7 @@ draft: false
 # hideSummary: false
 tags:
     - "postgres"
+font: arial
 ---
 
 # pg_hint_plan
