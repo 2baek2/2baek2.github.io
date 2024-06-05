@@ -14,7 +14,7 @@ tags:
 ## postgres 재시작
 
 ```bash
-sudo systemctl restart postgresql.service
+sudo sudo systemctl restart postgresql
 ```
 
 ## 테이블 이름 바꾸기
