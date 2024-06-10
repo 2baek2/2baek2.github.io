@@ -16,6 +16,7 @@ git clone https://github.com/postgres/postgres.git
 ```
 ```sh
 # 설치하고자 하는 버전으로 변경
+cd postgres
 git checkout REL_16_3
 ```
 
@@ -40,7 +41,7 @@ useradd postgres
 ```sh
 ./configure --prefix=/home/postgres/pgsql --enable-cassert --enable-debug CFLAGS="-ggdb -Og -g3 -fno-omit-frame-pointer"
 make
-make install
+sudo make install
 ```
 --prefix 에는 설치할 경로를 지정해주면 된다.
 
