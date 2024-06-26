@@ -89,6 +89,7 @@ host로 해당 폴더를 넣어주면 해결되었다.
 ### pgvector
 
 ```sh
+make
 export PG_CONFIG=/home/postgres/pgsql/bin/pg_config
 sudo --preserve-env=PG_CONFIG make install
 ```
