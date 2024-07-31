@@ -29,13 +29,6 @@ wget https://ftp.postgresql.org/pub/source/v16.3/postgresql-16.3.tar.gz
 tar xvfz postgresql-16.3.tar.gz
 ```
 
-## Add user
-
-```
-# postgres user 생성
-useradd postgres
-```
-
 ## Compile
 
 ```sh
@@ -56,6 +49,21 @@ cd /home/postgres/pgsql/bin
 ```sh
 cd /home/postgres/pgsql/bin
 ./pg_ctl start -D ../data -l ../log/test.log
+```
+
+## Add user
+
+```
+# postgres user 생성
+useradd postgres
+```
+
+## Create DB
+
+```
+
+$./home/postgres/pgsql/bin/createdb name
+
 ```
 
 ```sh
@@ -86,6 +94,7 @@ psycopg로 접속하려고 하면 socket 파일을 찾을 수 없다고 하면�
 host로 해당 폴더를 넣어주면 해결되었다. 
 
 ## Extension 설치
+
 ### pgvector
 
 ```sh
@@ -100,3 +109,11 @@ sudo --preserve-env=PG_CONFIG make install
 # PG_CONFIG = pg_config
 PG_CONFIG = /home/postgres/pgsql/bin/pg_config
 ```
+
+### Makefile
+```
+PG_CONFIG ?= pg_config
+PG_CONFIG ?= /home/postgres/pgsql/bin/pg_config
+```
+
+소스 코드를 수정하고 build를 여러번 해야한다면 makefile을 위처럼 수정하는게 편하다.
