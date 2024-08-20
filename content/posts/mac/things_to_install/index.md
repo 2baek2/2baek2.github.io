@@ -52,7 +52,7 @@ battery maintain 80
 
 Ice는 메뉴바 관리 앱으로 [Bartender](https://www.macbartender.com/)를 대체할 수 있는 앱이다. 아래 사진에서 볼 수 있듯이 메뉴바에 원하는 아이템만 남겨두게 정리 할 수 있다. 
 
-설정창에 들어가서 General에서 Use Ice Bar를 On으로 바꾸면 메뉴바 아래에 숨겨진 아이콘이 나오게 할 수있고 Menu Bar Appearance에서 드래그로도 아이콘 숨김 설정이 가능하다.
+설정창에 들어가서 General에서 Use Ice Bar를 On으로 바꾸면 메뉴바 아래에 숨겨진 아이콘이 나오게 할 수있고 Menu Bar Appearance에서 드래그로도 아이콘 숨김 설정이 가능하다. 그리고 메뉴바도 원하는데로 꾸밀 수 있어서 맥북 꾸미기 좋아하는 사람들도 좋아할 것 같다.
 
 ![Ice image](images/ice_main.png)
 
