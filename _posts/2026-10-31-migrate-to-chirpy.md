@@ -1,6 +1,6 @@
 ---
 title: "블로그를 Chirpy로 옮겼습니다"
-date: 2026-10-31 15:00:00 +0900
+date: 2026-10-31 13:30:00 +0900
 categories: [기술, 블로그]
 tags: [jekyll, chirpy, github-pages]
 description: "Hugo + PaperMod에서 Jekyll + Chirpy로 옮긴 이유와 앞으로의 운영 방식"
