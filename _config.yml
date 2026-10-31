@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 2baek2 # the main title
 
-tagline: 기술과 취업, 두 축으로 쌓는 기록
+tagline:
 
 description: >- # used by seo meta and the atom feed
   데이터베이스와 백엔드 공부, 취업 준비 과정을 정리하는 블로그입니다.
