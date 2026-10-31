@@ -1,0 +1,55 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* 검색창 강조 */
+search#search {
+  max-width: 340px;
+}
+
+#search-input {
+  width: 240px;
+  max-width: 40vw;
+  height: 2.1rem;
+  padding: 0 0.9rem;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--main-border-color);
+  background-color: var(--card-bg);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#search-input::placeholder {
+  color: var(--text-muted-color);
+  opacity: 1;
+}
+
+#search-input:focus {
+  border-color: var(--link-color);
+  box-shadow: 0 0 0 3px rgb(0 86 178 / 12%);
+  outline: none;
+}
+
+#topbar search i.fa-search {
+  color: var(--text-muted-color);
+}
+
+/* 글 하단 댓글 영역 여백 */
+#post-comments {
+  margin-top: 2.5rem;
+}
+
+/* 좁은 화면에서 검색창 폭 제한 */
+@media (max-width: 576px) {
+  #search-input { width: 200px; }
+}
